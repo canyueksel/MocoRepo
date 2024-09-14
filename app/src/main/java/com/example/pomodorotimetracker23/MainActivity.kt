@@ -7,7 +7,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
@@ -22,52 +21,45 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 
 class MainActivity : ComponentActivity() {
 
-    // Verwenden des ViewModelFactory, um den Context zu übergeben
-    private val viewModel: PomodoroViewModel by viewModels { PomodoroViewModelFactory(this) }
-
     private val requestPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
     ) { isGranted: Boolean ->
         if (isGranted) {
             // Permission is granted, continue with posting notifications
-            startPomodoroTimer()
         }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            PomodoroTimerScreen()
-        }
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            when {
-                ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) ==
-                        PackageManager.PERMISSION_GRANTED -> startPomodoroTimer()
-                else -> requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
-            }
-        } else {
-            startPomodoroTimer()
+            PomodoroApp()
         }
     }
 
-    private fun startPomodoroTimer() {
-        // Using ViewModel's logic to control the timer, notifications will be handled by the ViewModel
+    @Composable
+    fun PomodoroApp() {
+        val context = LocalContext.current
+        val pomodoroViewModel: PomodoroViewModel = viewModel()
+
+        LaunchedEffect(Unit) {
+            pomodoroViewModel.initialize(context) // Initialisiere das ViewModel
+        }
+
+        PomodoroTimerScreen(pomodoroViewModel)
     }
 }
 
 @Composable
-fun PomodoroTimerScreen(viewModel: PomodoroViewModel = viewModel()) {
-    val context = LocalContext.current // Kontext aus der Composable holen
+fun PomodoroTimerScreen(viewModel: PomodoroViewModel) {
     val timeLeft by viewModel.timeLeft
     val timerRunning by viewModel.timerRunning
+    val context = LocalContext.current
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
     ) {
-        // Timer Text
         Text(
             text = formatTime(timeLeft),
             fontSize = 48.sp
@@ -75,21 +67,18 @@ fun PomodoroTimerScreen(viewModel: PomodoroViewModel = viewModel()) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Start Button
-        Button(onClick = { viewModel.startTimer() }, enabled = !timerRunning) {
+        Button(onClick = { viewModel.startTimer(context) }, enabled = !timerRunning) {
             Text(text = "Start")
         }
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Stop Button
-        Button(onClick = { viewModel.stopTimer() }, enabled = timerRunning) {
+        Button(onClick = { viewModel.stopTimer(context) }, enabled = timerRunning) {
             Text(text = "Stop")
         }
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Reset Button
         Button(onClick = { viewModel.resetTimer() }) {
             Text(text = "Reset")
         }
@@ -101,4 +90,3 @@ fun formatTime(seconds: Int): String {
     val secondsLeft = seconds % 60
     return String.format("%02d:%02d", minutes, secondsLeft)
 }
-

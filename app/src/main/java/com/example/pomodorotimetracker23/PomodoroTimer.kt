@@ -11,6 +11,7 @@ class PomodoroTimer(
     var onSessionEnd: () -> Unit
 ) {
     private var job: Job? = null
+    private val timerScope = CoroutineScope(Dispatchers.Main)
 
     fun startWorkSession() {
         startSession(workDuration)
@@ -25,17 +26,25 @@ class PomodoroTimer(
     }
 
     private fun startSession(duration: Long) {
-        job?.cancel()
-        job = CoroutineScope(Dispatchers.Main).launch {
-            for (time in duration downTo 0 step 1000) {
-                onTick(time)
+        job?.cancel() // Vorherige Sitzung beenden, wenn eine läuft
+        val startTime = System.currentTimeMillis() // Zeitstempel des Starts
+        job = timerScope.launch {
+            var remainingTime = duration
+            while (remainingTime > 0) {
+                onTick(remainingTime)
                 delay(1000)
+                remainingTime = duration - (System.currentTimeMillis() - startTime)
             }
-            onSessionEnd()
+            onSessionEnd() // Sitzung ist beendet
         }
     }
 
     fun stop() {
         job?.cancel()
+    }
+
+    fun clear() {
+        job?.cancel()
+        timerScope.cancel() // CoroutineScope beenden, wenn der Timer nicht mehr gebraucht wird
     }
 }

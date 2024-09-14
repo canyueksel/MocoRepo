@@ -1,74 +1,126 @@
 [
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/layout_activity_pomodoro_timer.xml.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/layout/activity_pomodoro_timer.xml"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/xml_backup_rules.xml.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/xml/backup_rules.xml"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxxhdpi_ic_launcher_background.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xxxhdpi/ic_launcher_background.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/drawable_rounded_button.xml.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/drawable/rounded_button.xml"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xhdpi_ic_launcher_background.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xhdpi/ic_launcher_background.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/xml/data_extraction_rules.xml"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-hdpi_ic_launcher_background_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-hdpi/ic_launcher_background_round.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-hdpi_ic_launcher_background.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-hdpi/ic_launcher_background.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/xml_backup_rules.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-anydpi-v26_ic_launcher_background.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-anydpi-v26/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-mdpi_ic_launcher_background.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-mdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxxhdpi_ic_launcher_background_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xxxhdpi/ic_launcher_background_round.webp"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-mdpi_ic_launcher_background_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-mdpi/ic_launcher_background_round.webp"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pomodorotimetracker23.app-debug-56:/mipmap-anydpi-v26_ic_launcher_background.xml.flat",
+        "source": "com.example.pomodorotimetracker23.app-main-58:/mipmap-anydpi-v26/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/drawable_rounded_button.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxhdpi_ic_launcher_background_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xxhdpi/ic_launcher_background_round.webp"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/layout_activity_pomodoro_timer.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/layout/activity_pomodoro_timer.xml"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-anydpi-v26_ic_launcher_background_round.xml.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-anydpi-v26/ic_launcher_background_round.xml"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xxhdpi_ic_launcher_background.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xxhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-debug-56:/mipmap-xhdpi_ic_launcher_background_round.webp.flat",
+        "source": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-main-58:/mipmap-xhdpi/ic_launcher_background_round.webp"
     }
 ]

@@ -4,7 +4,7 @@
             "outputFile": "com.example.pomodorotimetracker23.test.app-mergeDebugAndroidTestResources-32:/values-lv/values-lv.xml",
             "map": [
                 {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/446708bee931cdc1e1ade48789349a21/transformed/core-1.13.1/res/values-lv/values-lv.xml",
+                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/248e92bf4ce9461b7716dd21a0a75b82/transformed/core-1.13.1/res/values-lv/values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/162c8d15275f0744fb16b01232788dc4/transformed/ui-release/res/values-lv/values-lv.xml",
+                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/dda16682a44a2c379c84cb5cc034a3e4/transformed/ui-release/res/values-lv/values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

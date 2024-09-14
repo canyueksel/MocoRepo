@@ -4,24 +4,7 @@
             "outputFile": "com.example.pomodorotimetracker23.test.app-mergeDebugAndroidTestResources-32:/values-iw/values-iw.xml",
             "map": [
                 {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/446708bee931cdc1e1ade48789349a21/transformed/core-1.13.1/res/values-iw/values-iw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,149,251,348,445,546,646,752",
-                        "endColumns": "93,101,96,96,100,99,105,100",
-                        "endOffsets": "144,246,343,440,541,641,747,848"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,23",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,199,301,398,495,596,696,1934",
-                        "endColumns": "93,101,96,96,100,99,105,100",
-                        "endOffsets": "194,296,393,490,591,691,797,2030"
-                    }
-                },
-                {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/162c8d15275f0744fb16b01232788dc4/transformed/ui-release/res/values-iw/values-iw.xml",
+                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/dda16682a44a2c379c84cb5cc034a3e4/transformed/ui-release/res/values-iw/values-iw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "802,891,975,1068,1163,1246,1323,1408,1494,1573,1639,1705,1783,1865,2035,2109,2180",
                         "endColumns": "88,83,92,94,82,76,84,85,78,65,65,77,81,68,73,70,118",
                         "endOffsets": "886,970,1063,1158,1241,1318,1403,1489,1568,1634,1700,1778,1860,1929,2104,2175,2294"
+                    }
+                },
+                {
+                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/248e92bf4ce9461b7716dd21a0a75b82/transformed/core-1.13.1/res/values-iw/values-iw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,445,546,646,752",
+                        "endColumns": "93,101,96,96,100,99,105,100",
+                        "endOffsets": "144,246,343,440,541,641,747,848"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,23",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,199,301,398,495,596,696,1934",
+                        "endColumns": "93,101,96,96,100,99,105,100",
+                        "endOffsets": "194,296,393,490,591,691,797,2030"
                     }
                 }
             ]

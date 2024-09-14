@@ -4,26 +4,7 @@
             "outputFile": "com.example.pomodorotimetracker23.test.app-mergeDebugAndroidTestResources-32:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/fb8be24b66b83f60932b3652a23a200d/transformed/core-1.5.0/res/values-v21/values.xml",
-                    "from": {
-                        "startLines": "4,13",
-                        "startColumns": "0,0",
-                        "startOffsets": "180,655",
-                        "endLines": "12,21",
-                        "endColumns": "8,8",
-                        "endOffsets": "654,1127"
-                    },
-                    "to": {
-                        "startLines": "10,19",
-                        "startColumns": "4,4",
-                        "startOffsets": "864,1343",
-                        "endLines": "18,27",
-                        "endColumns": "8,8",
-                        "endOffsets": "1338,1815"
-                    }
-                },
-                {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/446708bee931cdc1e1ade48789349a21/transformed/core-1.13.1/res/values-v21/values-v21.xml",
+                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/248e92bf4ce9461b7716dd21a0a75b82/transformed/core-1.13.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "2,3,4,5,6,7,8,9,30,35",
                         "endColumns": "117,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "168,232,299,363,479,605,731,859,1987,2339"
+                    }
+                },
+                {
+                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/f10fa6ea1d2b7db5d3bc59803e4c76aa/transformed/core-1.5.0/res/values-v21/values.xml",
+                    "from": {
+                        "startLines": "4,13",
+                        "startColumns": "0,0",
+                        "startOffsets": "180,655",
+                        "endLines": "12,21",
+                        "endColumns": "8,8",
+                        "endOffsets": "654,1127"
+                    },
+                    "to": {
+                        "startLines": "10,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "864,1343",
+                        "endLines": "18,27",
+                        "endColumns": "8,8",
+                        "endOffsets": "1338,1815"
                     }
                 }
             ]

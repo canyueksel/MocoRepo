@@ -16,6 +16,8 @@ id stopButton
 id timerText
 layout activity_pomodoro_timer
 mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_background_round
 mipmap ic_launcher_round
 string app_name
 string reset_button
