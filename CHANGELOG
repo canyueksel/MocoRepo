@@ -1,0 +1,27 @@
+1. MainActivity.kt 
+ - Klasse PomodoroTimer erstellt und in die MainActivity.kt integriert.
+ - Composable Funktion PomodoroScreen hinzugefügt um die UI zu rendern
+ - Timer-Logik integriert in die PomodoroScreen
+ -Bugfixes bei Berechtigung und Mutable States
+ 
+ 2. PomodoroTimer.kt
+ - Klasse PomodoroTimer erstellt und die Logik für eine Sitzung implementiert.
+ - Funktionen startWorkSession, startShortBreak, startLongBreak und stop integriert und eingebunden
+ - Bugfixes für onTick und onSessionEnd
+ 
+ 3. Color.kt
+ - Farben implementiert
+ - siehe Color.kt für Änderungen
+ 
+ 4. Theme.kt
+ - Farbschemen integriert und gefixt
+ - die Typographie vom Default Theme in ColorScheme integriert
+ - dynamische Farben implementiert
+ - Bugfixes ( ein paar klammern entfernt )
+ 5. Type.kt
+ - Typografie definiert
+ - PomodoroTypography Funktion definiert und displayLarge, bodyLarge und lableLarge hinzugefügt
+ - Bugfixes bei der Attributanpassung.
+ 
+ - Manuel Gerke
+ 
