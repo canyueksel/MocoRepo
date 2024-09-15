@@ -4,7 +4,7 @@
             "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-54:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/673a902556c6ddc647991f796a4fc920/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "C:\\Users\\M.Gerke\\.gradle\\caches\\transforms-4\\56261785f4f44e65cee2d669c217b093\\transformed\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
