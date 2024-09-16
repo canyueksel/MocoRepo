@@ -1,17 +1,32 @@
 package com.example.pomodorotimetracker23
 
+import android.Manifest
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
+import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.ContextCompat
 
 object PomodoroUtility {
 
     fun showNotification(context: Context, title: String, message: String) {
         val channelId = "pomodoro_channel_id"
         val notificationId = 1
+
+        // Prüfe, ob die Berechtigung für Benachrichtigungen erteilt wurde
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(
+                    context,
+                    Manifest.permission.POST_NOTIFICATIONS
+                ) != PackageManager.PERMISSION_GRANTED
+            ) {
+                // Berechtigung nicht erteilt, Benachrichtigung wird nicht gesendet
+                return
+            }
+        }
 
         // Notification Channel erstellen für Android 8.0 und höher
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

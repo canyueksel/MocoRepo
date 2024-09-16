@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-54:/values-v23/values-v23.xml",
+            "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-57:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/6abb58ffe27a1a968e550858b117a056/transformed/work-runtime-2.8.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/994d9ea9cb7244a42f4a30107b6adf55/transformed/work-runtime-2.9.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

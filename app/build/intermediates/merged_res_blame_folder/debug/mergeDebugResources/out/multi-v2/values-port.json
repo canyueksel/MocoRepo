@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-54:/values-port/values-port.xml",
+            "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-57:/values-port/values-port.xml",
             "map": [
                 {
                     "source": "/Users/canyuksel/.gradle/caches/transforms-4/673a902556c6ddc647991f796a4fc920/transformed/appcompat-1.2.0/res/values-port/values-port.xml",

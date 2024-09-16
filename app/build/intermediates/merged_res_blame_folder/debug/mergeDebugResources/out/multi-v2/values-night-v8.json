@@ -1,11 +1,74 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-54:/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/canyuksel/.gradle/daemon/8.7/com.example.pomodorotimetracker23.app-mergeDebugResources-57:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/canyuksel/Downloads/mocotimetrackergruppe23/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "411"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "830",
+                        "endLines": "17",
+                        "endColumns": "12",
+                        "endOffsets": "1145"
+                    }
+                },
+                {
+                    "source": "/Users/canyuksel/Downloads/mocotimetrackergruppe23/app/src/main/res/values-night/colors.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,212,140",
+                        "endColumns": "50,46,44",
+                        "endOffsets": "101,254,180"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,106,153",
+                        "endColumns": "50,46,44",
+                        "endOffsets": "101,148,193"
+                    }
+                },
+                {
+                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/673a902556c6ddc647991f796a4fc920/transformed/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,18",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "198,268,352,436,532,634,736,1150",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "263,347,431,527,629,731,825,1234"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-57:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/canyuksel/.gradle/caches/transforms-4/673a902556c6ddc647991f796a4fc920/transformed/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "55,125,209,293,389,491,593,687",
