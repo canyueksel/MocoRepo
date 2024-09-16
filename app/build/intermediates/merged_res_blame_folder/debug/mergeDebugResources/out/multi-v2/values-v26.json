@@ -4,7 +4,7 @@
             "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-57:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/673a902556c6ddc647991f796a4fc920/transformed/appcompat-1.2.0/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\M.Gerke\\.gradle\\caches\\transforms-4\\56261785f4f44e65cee2d669c217b093\\transformed\\appcompat-1.2.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

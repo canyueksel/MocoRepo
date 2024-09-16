@@ -62,7 +62,7 @@
             "outputFile": "com.example.pomodorotimetracker23.app-mergeDebugResources-57:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/canyuksel/.gradle/caches/transforms-4/673a902556c6ddc647991f796a4fc920/transformed/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\M.Gerke\\.gradle\\caches\\transforms-4\\56261785f4f44e65cee2d669c217b093\\transformed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
                         "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",

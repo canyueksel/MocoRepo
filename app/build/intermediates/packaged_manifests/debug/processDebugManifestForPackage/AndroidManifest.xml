@@ -8,11 +8,13 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <!-- Berechtigung zum Anzeigen von Benachrichtigungen auf Android 13+ -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Berechtigung für Vordergrunddienste -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <permission
         android:name="com.example.pomodorotimetracker23.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -44,6 +46,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Deklaration des Foreground Services ohne foregroundServiceType -->
+        <service
+            android:name="com.example.pomodorotimetracker23.PomodoroService"
+            android:exported="false" />
+
         <activity
             android:name="androidx.activity.ComponentActivity"
             android:exported="true" />
