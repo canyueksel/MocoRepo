@@ -54,8 +54,4 @@ class PomodoroViewModel : ViewModel() {
         _timeLeft.value = currentSession.workDuration // Zurücksetzen auf 25 Minuten
         _timerRunning.value = false
     }
-
-    fun initialize(context: Context) {
-        // Möglicherweise benötigte Initialisierungen für das ViewModel
-    }
 }
