@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
         val pomodoroViewModel: PomodoroViewModel = viewModel()
 
         LaunchedEffect(Unit) {
-            pomodoroViewModel.initialize(context) // Initialisiere das ViewModel
+            pomodoroViewModel.initialize(context) // ViewModel Initialisieren
         }
 
         PomodoroTimerScreen(pomodoroViewModel, context)
